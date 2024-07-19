@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-color: rgb(227, 192, 18);
+    padding-right: 200px;
+    padding-left: 200px;
+
+}
+.container{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 7%;
+}
+header{
+    background-color: black;
+    color: yellow;
+    display:flex;
+    padding: 50px;
+    border-bottom: 5px solid white;
+}
+span{
+    font-size: 20px;
+    margin-top: 30px;
+   
+}
+h1{
+    width: 42vw;
+}
+h2{
+    font-size: 40px;
+    font-weight: lighter;
+}
+h3{
+    text-align: end;
+    font-size: 20px;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+a{
+        border-right: 2px solid white;
+        padding: 15px;
+        
+}
+section{
+    margin-left: 60px;
+    width: 50%;
+}
+h4{
+    font-size:20px ;
+}
+h5{
+    font-size: 15px;
+}

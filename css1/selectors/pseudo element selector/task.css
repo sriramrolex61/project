@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    color:green;
+}
+.element > p::before {
+    content: "Content ";
+    color: red;
+    font-size:26px ;
+
+}

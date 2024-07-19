@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- This is head section. --> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <!-- This is body section. -->
+<body>
+    <!-- This is an Unordered List with list of e-newspapers 
+     Each link will redirect you to a different e-newspapers 
+     website -->
+    <h1>List of e-newspapers</h1>
+    <ul>
+        <li><a href="https://thehindu.com/"target="_blank">The Hindu</a></li>
+        <li><a href="https://HindustanTimes.com/"target="_blank">Hindustan Times</a></li>
+        <li><a href="https://Dinakaran.com/"target="_blank">Dinakaran</a></li>
+        <li><a href="https://Dinamalar.com/"target="_blank">Dinamalar</a</li>
+        <li><a href="https://DailyThanthi.com/"target="_blank">DailyThanthi</a</li>
+
+    </ul>
+</body>
+</html>

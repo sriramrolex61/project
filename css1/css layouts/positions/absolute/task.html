@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relative Position Bug</title>
+    <style>
+      .container {
+        width: 300px;
+        height: 450px;
+       border: 2px solid rgb(148, 6, 148);
+       padding-top: 10px;
+       
+      }
+      * {
+        margin: 0;
+        
+      }
+      .box {
+        color: white;
+        width: 150px;
+        height: 150px;
+        top: 100px;
+        left:100px;
+        background-color: rgb(225, 25, 25);
+        position:absolute ;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>This is a Parent Container!</p>
+      <div class="box">This is an absolutely positioned Child div.</div>  
+      
+    </div>
+  </body>
+</html>

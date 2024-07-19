@@ -1,0 +1,62 @@
+*{
+    background-color: rgb(67, 66, 66);
+}
+body{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+}
+.fa-brands{
+    background-color: black;
+    color: gray;
+    width: 120px;
+    height: 100px;
+    font-size: 70px;
+    padding: 40px 20px 20px 20px;
+    border-radius: 90%;
+    margin: 200px 30px 30px;
+    transition: box-shadow 0.6s ease;
+}
+.fa-facebook-f{
+    animation:blue_color 2s infinite 2s ;
+    color: rgb(14, 14, 239);
+}
+.fa-instagram{
+    animation:pink_color 2s infinite 2.5s ;
+    color: rgb(229, 17, 215);
+}
+.fa-youtube{
+    animation:red_color 2s infinite 2.8s ;
+    color: rgb(233, 13, 13);
+}
+@keyframes blue_color {
+    0%, 100% {
+        box-shadow: 0;
+    }
+    50% {
+        box-shadow: 0 0 20px rgb(14, 14, 239), 0 0 30px , 0 0 40px;
+    }
+}
+
+@keyframes pink_color {
+    0%, 100% {
+        box-shadow: 0;
+    }
+    50% {
+        box-shadow: 0 0 20px rgb(229, 17, 215), 0 0 30px, 0 0 40px;
+    }
+}
+
+@keyframes red_color {
+    0%, 100% {
+        box-shadow: 0;
+    }
+    50% {
+        box-shadow: 0 0 20px rgb(233, 13, 13), 0 0 30px, 0 0 40px;
+    }
+}
+

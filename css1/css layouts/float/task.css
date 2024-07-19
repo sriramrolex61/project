@@ -1,0 +1,10 @@
+div{
+    border: 2px solid red;
+    color: green;
+    height: 200px;
+    width: 400px;
+    font-size: 20px; 
+}
+span{
+    float: right;
+}

@@ -1,0 +1,13 @@
+body{
+h1{
+    color: brown;
+}
+h2{
+    color:rgb(5, 5, 5);
+    background: #3afffc; 
+}
+h3{
+    font-size: 20px;
+    border-style: dotted;
+}
+}

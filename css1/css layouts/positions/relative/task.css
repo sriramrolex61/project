@@ -1,0 +1,14 @@
+
+div{
+    border: 2px solid rgb(168, 14, 202);
+    height: 800px;
+}
+img {
+    top:100px;
+    bottom:100px;
+    left:100px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+  
+}

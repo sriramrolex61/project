@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute Selector Bug</title>
+    <style>
+      li[target="_blank"] {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li data-category="fruit" target="_blank">Apple</li>
+      <li data-category="notfruit">Carrot</li>
+      <li data-category="fruit" target="_blank">Banana</li>
+    </ul>
+  </body>
+</html>

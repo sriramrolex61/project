@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+body {
+  background-color: rgb(249, 206, 149);
+  text-align: center;
+  
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: -15px;
+  text-align: center;
+  font-size: 80px;
+}
+h5 {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  line-height: 40px;
+}
+p{
+  text-align: left;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+#p1 {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-left: 80px;
+  margin-right: 60px;
+  line-height: 40px;
+  text-align: center;
+
+  font-style: italic;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+#p2 {
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  margin-top: 40px;
+}
+#p3 {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  line-height: 60px;
+  margin-left: 50px;
+  margin-right: 80px;
+}
+h3 {
+  margin: -10px 20px;
+  font-size: 40px;
+  border-top: 200px;
+}
+#h3 {
+  font-family: monotype;
+  font-style: oblique;
+  font-weight: 300;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+
+}
+.box1 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  margin: 10px;
+  border-right: 1px solid black;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.box2 {
+  margin: 10px;
+  border-right: 1px solid black;
+}
+.box3 {
+  font-style: italic;
+  margin: 10px;
+  border-right: 1px solid black;
+}
+.box4 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-weight: normal;
+  margin: 10px;
+  border-right: 1px solid black;
+}
+.box5 {
+  font-style: italic;
+  margin: 10px;
+  
+  
+}
+
+.box5 h3 {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.box1 h3 {
+  font-weight: lighter;
+}
